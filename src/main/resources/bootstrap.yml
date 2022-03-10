@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'fornecedor'
+  profiles:
+    active: defualt
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+
